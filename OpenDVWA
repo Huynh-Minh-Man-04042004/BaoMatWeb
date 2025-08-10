@@ -1,0 +1,2 @@
+vào cmd trỏ vào thư mục DVWA sau gõ docker compose up -d
+Lên Web truy cập vào http://localhost:4280

